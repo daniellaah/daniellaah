@@ -1,114 +1,23 @@
-<div align="center">
+### Hi, I'm Bo Gao 👋
 
-# Bo Gao
+I'm an AI engineer working on AI agents and LLMs.
 
-**AI Engineer · Retrieval · Agents · LLM Post-Training**
+### What I'm working on
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3200&pause=900&color=6E7781&center=true&vCenter=true&width=680&lines=Building+agentic+retrieval+systems;Experimenting+with+LLM+post-training;Learning+by+building%2C+measuring%2C+and+iterating)](https://git.io/typing-svg)
+#### Open source contributions
 
-I build AI systems around **retrieval, recommendation, and language models**.
+- **[inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai)** — a framework for large language model evaluations created by the UK AI Security Institute. ([merged PR](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=author:daniellaah)).
+- **[mlx-lm](https://github.com/ml-explore/mlx-lm)** — a Python package for generating text and fine-tuning large language models on Apple silicon with MLX. ([merged PR](https://github.com/ml-explore/mlx-lm/pulls?q=author:daniellaah)).
 
-Currently studying Computer Science at USC. Before diving deeper into agents and LLMs, I spent several years building large-scale recommendation and retrieval systems.
+#### Personal projects
 
-<br>
+- **[Agentic RAG](https://github.com/daniellaah/ARKB)** — an agentic RAG system, fine-tuning Qwen3-4B with SFT on agent trajectories collected through DeepSeek API rollouts.
 
-[![Website](https://img.shields.io/badge/bogao.dev-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bogao.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bo_Gao-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bogao223/)
+### Previously
 
-</div>
+I worked as a Machine Learning Engineer building large-scale recommender systems [@Xiaohongshu(小红书)](https://www.xiaohongshu.com/), focused on retrieval models and strategies.
 
-<br>
+### Links
 
-## What I'm working on
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [ARKB](https://github.com/daniellaah/ARKB)
-
-**Agentic Retrieval for Knowledge Bases**
-
-An agentic retrieval system where the model decides **how to search, what to read, and when to stop**, instead of following a fixed RAG pipeline.
-
-`match` · `search` · `read`
-
-BM25 · semantic · hybrid · RRF · reranking
-
-[Explore ARKB →](https://github.com/daniellaah/ARKB)
-
-</td>
-<td width="50%" valign="top">
-
-### [LLM Post-Training Hub](https://github.com/daniellaah/llm-post-training-hub)
-
-**Small experiments, one idea at a time**
-
-A learning lab for understanding LLM post-training through small, reproducible experiments on Apple Silicon.
-
-Currently: **SFT + LoRA with MLX**
-
-[Explore the experiments →](https://github.com/daniellaah/llm-post-training-hub)
-
-</td>
-</tr>
-</table>
-
-## Current rabbit holes
-
-<details>
-<summary><b>Retrieval + Agents</b></summary>
-<br>
-
-- How should an agent decide which retrieval tool to use?
-- When should it search again, read deeper, or stop?
-- How should agentic retrieval be evaluated beyond final-answer accuracy?
-- Can retrieval strategies themselves be improved through post-training?
-
-</details>
-
-<details>
-<summary><b>LLM Post-Training</b></summary>
-<br>
-
-- SFT and instruction tuning
-- Preference optimization
-- Online RL and GRPO
-- Reward design for tool-using agents
-- Efficient post-training of small open-weight models
-
-</details>
-
-<details>
-<summary><b>Recommendation + Search</b></summary>
-<br>
-
-- Retrieval and ranking
-- Two-tower models
-- Multi-interest representation learning
-- Real-time recommendation systems
-- The overlap between classic RecSys retrieval and modern agentic search
-
-</details>
-
-## Tools I reach for
-
-<p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,java,docker,redis,sqlite,git,github,linux,aws&perline=12" alt="Tech stack" />
-</p>
-
-**LLM / ML:** Transformers · MLX · Ollama  
-**Retrieval:** BM25 · Qdrant · RRF · neural reranking  
-**Data / Systems:** Spark · Flink · Kafka
-
-## Elsewhere
-
-I keep longer notes, project write-ups, and experiments at **[bogao.dev](https://bogao.dev)**.
-
-<div align="center">
-
-<br>
-
-`build → measure → understand → repeat`
-
-</div>
+- Website/Blog: [bogao.dev](https://bogao.dev)
+- LinkedIn: [in/bogao223](https://www.linkedin.com/in/bogao223)
